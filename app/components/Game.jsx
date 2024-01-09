@@ -6,8 +6,8 @@ const useSkiGame = () => {
   const SKI_SPEED_LEFT = 2;
   const SKI_SPEED_RIGHT = 2;
   const SKI_SPEED_DOWN = 6;
-  const windowWidth = window.innerWidth;
-  const windowHeight = window.innerHeight;
+  const windowWidth = 500;
+  const windowHeight = 500;
 
   const [skiPosition, setSkiPosition] = useState({
     x: windowWidth / 2,
