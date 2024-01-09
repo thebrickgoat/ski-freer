@@ -1,5 +1,7 @@
 a basic ski free clone
 
+https://ski-freerer.netlify.app/
+
 ## Getting Started
 
 First, run the development server:
