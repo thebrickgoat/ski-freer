@@ -198,8 +198,8 @@ const SkiFree = () => {
       <h2>{distance}</h2>
       <canvas
         ref={canvasRef}
-        width={windowWidth}
-        height={windowHeight}
+        width={500}
+        height={500}
         style={{ display: "block", border: "1px solid #000" }}
       />
     </div>
