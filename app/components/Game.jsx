@@ -133,7 +133,7 @@ const useSkiGame = () => {
       document.removeEventListener("keydown", handleKeyDown);
       clearInterval(intervalId);
     };
-  }, [skiPosition, obstaclePositions, gameOver]);
+  }, [skiPosition, obstaclePositions, gameOver, handleKeyDown, updateGame ]);
 
   return { skiPosition, obstaclePositions, gameOver, skiDirection, distance };
 };
